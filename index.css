@@ -9,23 +9,23 @@ body {
     background-color: darkblue;
     padding-bottom: 50px;
     max-width: 400px;
-    margin: 0 auto;
-    
+    margin: 100px auto;
+
 }
 
-h3{
+h3 {
     color: white;
     font-family: ROBOTO;
     text-align: center;
 }
 
-.div-btn{
+.div-btn {
     display: flex;
     justify-content: center;
 }
 
 
-.score{
+.score {
     background-color: black;
     font-family: ROBOTO;
     color: lightcoral;
@@ -34,10 +34,10 @@ h3{
     border: 2px solid lightcoral;
     margin: 30px;
     padding: 20px 30px;
-    font-size: 50px; 
+    font-size: 50px;
 }
 
-.btn{
+.btn {
     margin: 5px;
     background-color: darkblue;
     border: 1px solid grey;
@@ -48,25 +48,26 @@ h3{
     cursor: pointer;
 }
 
-.btn:hover{
-    color:white;
+.btn:hover {
+    color: white;
     border: 1px solid white;
 }
 
-.new-game{
+.new-game {
     position: fixed;
     bottom: 90px;
     padding: 8px;
     background-color: lightslategrey;
     color: darkblue;
-    border : 2px solid darkblue;
+    border: 2px solid darkblue;
     font-family: roboto;
     font-weight: bold;
     border-radius: 2px;
-    transition: background-color 0.15s, color 0.15s,border 0.15s;
-    
+    transition: background-color 0.15s, color 0.15s, border 0.15s;
+
 }
-.new-game:hover{
+
+.new-game:hover {
     color: lightslategray;
     background-color: darkblue;
     border: 2px solid lightslategray;
