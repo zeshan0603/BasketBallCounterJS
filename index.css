@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    background-color: darkslategray;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkblue;
+    padding-bottom: 50px;
+    max-width: 400px;
+    margin: 0 auto;
+    
+}
+
+h3{
+    color: white;
+    font-family: ROBOTO;
+    text-align: center;
+}
+
+.div-btn{
+    display: flex;
+    justify-content: center;
+}
+
+
+.score{
+    background-color: black;
+    font-family: ROBOTO;
+    color: lightcoral;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid lightcoral;
+    margin: 30px;
+    padding: 20px 30px;
+    font-size: 50px; 
+}
+
+.btn{
+    margin: 5px;
+    background-color: darkblue;
+    border: 1px solid grey;
+    color: grey;
+    border-radius: 3px;
+    padding: 5px;
+    transition: border 0.15s, color 0.15s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:white;
+    border: 1px solid white;
+}
+
+.new-game{
+    position: fixed;
+    bottom: 90px;
+    padding: 8px;
+    background-color: lightslategrey;
+    color: darkblue;
+    border : 2px solid darkblue;
+    font-family: roboto;
+    font-weight: bold;
+    border-radius: 2px;
+    transition: background-color 0.15s, color 0.15s,border 0.15s;
+    
+}
+.new-game:hover{
+    color: lightslategray;
+    background-color: darkblue;
+    border: 2px solid lightslategray;
+}
